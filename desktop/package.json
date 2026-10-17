@@ -1,0 +1,37 @@
+{
+  "name": "udaan-learning-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-capable Windows desktop shell for Udaan Learning",
+  "author": "Udaan Learning Project",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "in.udaan.learning",
+    "productName": "Udaan Learning",
+    "directories": { "output": "release" },
+    "files": ["main.cjs", "package.json"],
+    "extraResources": [
+      { "from": "build/backend/UdaanBackend", "to": "backend" },
+      { "from": "build/frontend/dist", "to": "frontend/dist" }
+    ],
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "artifactName": "Udaan-Learning-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Udaan Learning"
+    }
+  }
+}

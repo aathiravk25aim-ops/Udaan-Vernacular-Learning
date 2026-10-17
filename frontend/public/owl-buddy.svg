@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+<title id="title">Udaan quiz owl</title><desc id="desc">A smiling blue owl who cheers for quiz learners.</desc>
+<defs><linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65d9f7"/><stop offset="1" stop-color="#5279ee"/></linearGradient><linearGradient id="belly" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffef5"/><stop offset="1" stop-color="#dff7ff"/></linearGradient></defs>
+<ellipse cx="60" cy="107" rx="39" ry="6" fill="#293e95" opacity=".12"/>
+<path d="M22 43L18 16Q38 20 45 34Q60 25 75 34Q83 20 102 16L98 46Q108 59 102 81Q94 105 60 106Q26 105 18 81Q12 59 22 43z" fill="url(#body)" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+<path d="M24 35Q35 24 45 37Q35 48 24 35M76 37Q87 24 98 35Q87 48 76 37" fill="#ffc857"/>
+<ellipse cx="43" cy="52" rx="22" ry="24" fill="#f8ffff"/><ellipse cx="77" cy="52" rx="22" ry="24" fill="#f8ffff"/>
+<circle cx="46" cy="54" r="11" fill="#24305f"/><circle cx="74" cy="54" r="11" fill="#24305f"/><circle cx="49" cy="50" r="4" fill="#fff"/><circle cx="77" cy="50" r="4" fill="#fff"/>
+<path d="M54 65L60 74L66 65Z" fill="#ff9d3d" stroke="#f48239" stroke-width="2" stroke-linejoin="round"/>
+<path d="M31 77Q60 92 89 77Q83 99 60 99Q37 99 31 77z" fill="url(#belly)"/>
+<path d="M38 89q7 4 13 0M69 89q7 4 13 0" stroke="#91c9f2" stroke-width="2" stroke-linecap="round"/>
+<path d="M37 102l-8 8 15-2M83 102l8 8-15-2" fill="#ffbe4a" stroke="#f59b32" stroke-width="2" stroke-linejoin="round"/>
+<path d="M105 28l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#ffd95c"/>
+</svg>

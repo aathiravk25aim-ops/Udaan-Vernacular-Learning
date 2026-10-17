@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 260" role="img" aria-labelledby="title desc">
+<title id="title">Udaan astronaut boy</title><desc id="desc">A cheerful little boy wearing a purple and teal astronaut suit and a glass space helmet.</desc>
+<defs>
+ <linearGradient id="helmet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".52" stop-color="#e6f6ff"/><stop offset="1" stop-color="#91d7ee"/></linearGradient>
+ <linearGradient id="visor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c2f7ff"/><stop offset=".6" stop-color="#9cdbf6"/><stop offset="1" stop-color="#70abd9"/></linearGradient>
+ <linearGradient id="suit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9274ff"/><stop offset=".55" stop-color="#6d65e9"/><stop offset="1" stop-color="#435ac5"/></linearGradient>
+ <linearGradient id="pack" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#65e7c2"/><stop offset="1" stop-color="#32a9ad"/></linearGradient>
+ <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#201b55" flood-opacity=".18"/></filter>
+</defs>
+<!-- tiny floating stars -->
+<g fill="#ffd85e"><path d="M24 50l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/><path d="M187 45l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/><circle cx="191" cy="124" r="3"/></g>
+<ellipse cx="108" cy="242" rx="70" ry="10" fill="#4c55ac" opacity=".12"/>
+<!-- backpack -->
+<g filter="url(#shadow)"><rect x="148" y="134" width="34" height="70" rx="15" fill="url(#pack)" stroke="#eaffff" stroke-width="4"/><rect x="155" y="146" width="20" height="18" rx="6" fill="#f5fffc" opacity=".82"/><path d="M155 177h20" stroke="#298f9b" stroke-width="4" stroke-linecap="round"/></g>
+<!-- body and legs -->
+<g filter="url(#shadow)"><path d="M75 156Q105 139 136 158L151 202Q151 217 136 220H76Q61 217 63 202z" fill="url(#suit)" stroke="#f4f6ff" stroke-width="5"/><path d="M81 209l-2 22q2 12 16 12h13q7-2 5-11l-8-25z" fill="#4f63d1" stroke="#f4f6ff" stroke-width="5"/><path d="M115 209l-2 22q2 12 16 12h13q7-2 5-11l-8-25z" fill="#4f63d1" stroke="#f4f6ff" stroke-width="5"/><path d="M78 235h29q5 9-3 12H77q-8-2 1-12M119 235h29q5 9-3 12h-27q-8-2 1-12" fill="#65e9c0" stroke="#f5ffff" stroke-width="4"/></g>
+<!-- arms -->
+<g stroke="#f7fbff" stroke-width="5" stroke-linejoin="round"><path d="M74 165L51 190Q44 199 53 207q9 6 16-3l24-22" fill="url(#suit)"/><path d="M136 164l22 18q10 9 2 18-8 8-18 0l-20-17" fill="url(#suit)"/><circle cx="53" cy="202" r="11" fill="#f8cba6"/><circle cx="161" cy="200" r="11" fill="#f8cba6"/></g>
+<!-- neck -->
+<rect x="94" y="132" width="31" height="29" rx="11" fill="#d99468"/>
+<!-- helmet ring -->
+<g filter="url(#shadow)"><path d="M39 83Q40 26 108 24Q178 24 181 84L176 116Q169 152 110 158Q51 152 43 116z" fill="url(#helmet)" stroke="#fff" stroke-width="7"/><path d="M45 88Q50 38 109 36Q167 37 175 88L169 113Q164 142 110 148Q58 142 50 113z" fill="url(#visor)" stroke="#6b8be2" stroke-width="5"/></g>
+<!-- ears and face -->
+<ellipse cx="66" cy="94" rx="10" ry="15" fill="#efb183"/><ellipse cx="153" cy="94" rx="10" ry="15" fill="#efb183"/>
+<path d="M66 77Q65 50 91 46Q124 37 145 62Q155 74 151 104Q149 129 125 139Q103 146 82 131Q64 117 66 77z" fill="#f5bc8b"/>
+<!-- hair -->
+<path d="M65 83Q60 59 80 48Q91 40 103 43Q115 28 131 42Q151 44 154 65L147 81Q139 70 132 62Q117 71 100 67Q84 79 65 83z" fill="#51305f"/><path d="M78 58q11-18 25-10q-4 7-11 10M111 45q16-9 25 8q-13-5-25-8" fill="#765071"/>
+<!-- face -->
+<ellipse cx="91" cy="92" rx="5" ry="7" fill="#29365c"/><ellipse cx="128" cy="92" rx="5" ry="7" fill="#29365c"/><circle cx="92.5" cy="90" r="1.7" fill="#fff"/><circle cx="129.5" cy="90" r="1.7" fill="#fff"/><ellipse cx="78" cy="105" rx="7" ry="4" fill="#f38f97" opacity=".8"/><ellipse cx="141" cy="105" rx="7" ry="4" fill="#f38f97" opacity=".8"/><path d="M97 112Q109 125 121 111" fill="none" stroke="#91445a" stroke-width="4" stroke-linecap="round"/><path d="M106 122q4 3 8 0" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<!-- collar and chest panel -->
+<path d="M83 149Q110 162 138 149l-4 14q-23 13-46 0z" fill="#b8fff0" stroke="#fff" stroke-width="3"/><rect x="94" y="169" width="31" height="29" rx="9" fill="#dffcf6" stroke="#fff" stroke-width="3"/><path d="M109.5 173l4 7 8 1-6 5 2 8-8-4-7 4 1-8-6-5 8-1z" fill="#ffc83d"/>
+<!-- helmet glints -->
+<path d="M59 70q6-13 19-18M146 119q-4 9-14 12" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+</svg>

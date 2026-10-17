@@ -1,0 +1,25 @@
+# Local runtime files
+backend/.venv/
+backend/learning.db
+backend/__pycache__/
+*.py[cod]
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.env
+
+desktop/node_modules/
+desktop/build/
+desktop/release/
+desktop/.build-venv/
+node_modules/
+dist/
+build/
+release/
+out/
+*.exe
+*.msi
+*.log
+.env
+.env.local
+.DS_Store
